@@ -1,6 +1,6 @@
 /*================================= typing animation ===============================*/
 var typed = new Typed(".typing",{
-    strings:[" ","Data Scientist","Machine Learning Engineer","Deep Learning Engineer","Web Developer"],
+    strings:[" ","Data Scientist","Machine Learning Engineer","Deep Learning Engineer","MLOp's Enthusiast"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
@@ -21,7 +21,7 @@ var typed = new Typed(".name",{
 })*/
 
 var typed = new Typed(".name",{
-    strings:[" ","Dip","Dipendra","Dipendra Pratap","Dipendra Pratap Singh"],
+    strings:[" ","Ris","Rishabh","Rishabh Agrawal","Rishabh Agrawal"],
     typeSpeed:100,
     BackSpeed:60,
     
