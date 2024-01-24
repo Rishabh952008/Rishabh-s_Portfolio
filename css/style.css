@@ -46,7 +46,7 @@ ul
 }
 .section
 {
-    background-color: rgba(48, 46, 77,0.15);
+    background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -143,6 +143,7 @@ ul
 /*aside*/
 .aside{
     width: 270px;
+    
     background: var(--bg-black-100);
     position: fixed;
     left: 0;
@@ -155,6 +156,7 @@ ul
     align-items: center;
     z-index: 10;
 }
+
 .aside .logo
 {
     position: absolute;
@@ -199,7 +201,6 @@ ul
     border-right: 5px solid var(--skin-color);
     top: 0;
     right: 0;
-
 }
 .aside .nav-toggler
 {
