@@ -29,7 +29,7 @@ dayNight.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
 window.addEventListener("load", () => {
-  dayNight.querySelector("i").classList.add("fa-sun");
+  document.body.classList.add("dark");
   if (document.body.classList.contains("dark")) {
     dayNight.querySelector("i").classList.add("fa-sun");
   } else {
